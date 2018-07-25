@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SqliteSample1</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="btn_add_employee">Add Employee</string>
+    <string name="lbl_join_date">Join Date:</string>
+    <string name="lbl_age1">(Age: </string>
+    <string name="lbl_age2">)</string>
+
+    <string name="title_add_emp">Add Employee</string>
+    <string name="title_emp_name">Employee Name</string>
+    <string name="error_emp_name">Enter Employee Name</string>
+    <string name="title_designation">Designation</string>
+    <string name="error_designation">Enter Designation</string>
+    <string name="title_age">Age</string>
+    <string name="error_emp_age">Enter Age</string>
+    <string name="title_join_date">Joining Date</string>
+    <string name="error_join_adate">Select Join Date</string>
+    <string name="error_date">Invalid Date</string>
+    <string name="btn_submit">Submit</string>
+
+
+
+
+
+</resources>

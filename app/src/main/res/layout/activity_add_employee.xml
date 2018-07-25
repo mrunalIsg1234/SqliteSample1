@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_employee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sqlitesample1.AddEmployeeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/title_add_emp"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/empNameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="5dp"
+                android:paddingStart="5dp"
+                android:theme="@style/bt_text_input_layout"
+                tools:ignore="RtlCompat">
+
+                <EditText
+                    android:id="@+id/empNameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:contentDescription="@string/title_emp_name"
+                    android:hint="@string/title_emp_name"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:paddingTop="@dimen/bt_margin"
+                    android:textColorHint="@color/greyDark" />
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/designationLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="5dp"
+                android:paddingStart="5dp"
+                android:theme="@style/bt_text_input_layout"
+                tools:ignore="RtlCompat">
+
+                <EditText
+                    android:id="@+id/designationEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:contentDescription="@string/title_designation"
+                    android:hint="@string/title_designation"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:paddingTop="@dimen/bt_margin"
+                    android:textColorHint="@color/greyDark" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ageLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="5dp"
+                android:paddingStart="5dp"
+                android:theme="@style/bt_text_input_layout"
+                tools:ignore="RtlCompat">
+
+                <EditText
+                    android:id="@+id/ageEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:contentDescription="@string/title_age"
+                    android:hint="@string/title_age"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:paddingTop="@dimen/bt_margin"
+                    android:textColorHint="@color/greyDark" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/joinDateLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="5dp"
+                android:paddingStart="5dp"
+                android:theme="@style/bt_text_input_layout"
+                tools:ignore="RtlCompat">
+
+                <EditText
+                    android:id="@+id/joinDateEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:contentDescription="@string/title_join_date"
+                    android:hint="@string/title_join_date"
+                    android:imeOptions="actionDone"
+                    android:inputType="none"
+                    android:focusable="false"
+                    android:paddingTop="@dimen/bt_margin"
+                    android:textColorHint="@color/greyDark" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/submitButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_submit"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@color/colorPrimaryDark"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
